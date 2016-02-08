@@ -1,0 +1,25 @@
+# CMake
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.ycm_*
+
+# folders 
+build/**
+dataset/**
+assets/**
+papers/
+
+# Compiled
+*.o
+*.so
+*.pyc

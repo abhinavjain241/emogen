@@ -1,0 +1,16 @@
+
+# Configuration
+CONFIGURE_FILE(example_dataset.cfg ${ASSETDIR} COPYONLY)
+CONFIGURE_FILE(datasetConfigParser.py ${ASSETDIR} COPYONLY)
+# Dataset tools
+CONFIGURE_FILE(datasetInit.py ${ASSETDIR} COPYONLY)
+CONFIGURE_FILE(datasetFillCK.py ${ASSETDIR} COPYONLY)
+CONFIGURE_FILE(datasetCropFaces.py ${ASSETDIR} COPYONLY)
+CONFIGURE_FILE(datasetFeatures.py ${ASSETDIR} COPYONLY)
+CONFIGURE_FILE(datasetPrepTrain.py ${ASSETDIR} COPYONLY)
+CONFIGURE_FILE(datasetTrain.py ${ASSETDIR} COPYONLY)
+CONFIGURE_FILE(datasetVerifyPrediction.py ${ASSETDIR} COPYONLY)
+# GUI tool
+CONFIGURE_FILE(gui.py ${ASSETDIR} COPYONLY)
+# Scripts
+CONFIGURE_FILE(train_models.py ${ASSETDIR} COPYONLY)
